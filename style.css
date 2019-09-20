@@ -1,0 +1,7 @@
+.without_number {
+  list-style-type: none;
+}
+
+ol li {
+  color: #0545ad;
+}
