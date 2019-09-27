@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import "css/reset.css";
+html, body {
+  margin: 0 auto;
+  margin-left: 0 auto;
+  margin: top right bottom left;
+  margin: top+bottom right+left;
+  margin-right: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 800px;
+}
+
+
+
+h1 {
+  margin-top: 30px;
+  font-family: Roboto;
+}
+
+h2 {
+  margin-top: 30px;
+  font-family: Helvetica;
+  margin-bottom: -8px;
+}
+
+
+
+h3 {
+  margin-top: 30px;
+  font-family: Arial;
+}
+
+p, blockquote, ul, li {
+  font-family: Sans-Serif;
+
+}
+
+ul, li {
+  list-style-type: disc;
+  margin-bottom: 15px;
+}
+
+.blockquote {
+  margin-bottom: -18px;
+  border-left: 1px solid black;
+  padding: 20px 20px;
+  background-color: #f2f2f2;
+}
+
+.ideology {
+  margin-top: 30px;
+  position: relative;
+}
+
+.ideology::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: #000;
+ 
+  width: 2px;
+  height: 100%;
+
+}
+
+.reinforced_iron {
+  border-left: 1px solid black;
+  padding-left: 20px;
+
+}
+
+.architecture {
+  margin-bottom: 10px;
+}
